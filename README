@@ -1,0 +1,11 @@
+In order for lessmed to work properly you have to set up the keyword "MED" in FrontlineSMS and and an external command that interacts with lessmed.pl.
+
+Execution Type: Command Line Execution
+Command: /path/to/perl.exe /path/to/lessmed.pl ${message_content} [e.g., "../Perl/bin/perl.exe" "../JAppLabs/lessmed/lessmed.pl" ${message_content}]
+Response Type: Plain Text
+Message: {command_response}
+Send an Auto Reply: checked
+
+See lessmed-flsms_external_command.pdf for a screenshot.
+
+One other thing: you have to have Perl installed ;) 
